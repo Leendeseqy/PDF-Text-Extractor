@@ -1,7 +1,7 @@
-```markdown
+
 # 📄 PDF Text Extractor
 
-![Python](https://img.shields.io/badge/Python-3.6%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
 
@@ -18,8 +18,8 @@
 ## 📦 Установка
 
 ### Требования
-- Python 3.6 или выше
-- Установленная библиотека pdfplumber
+- Python 3.8 или выше
+- Библиотека [pdfplumber](https://github.com/jsvine/pdfplumber)
 
 ### Шаги установки
 ```bash
@@ -28,6 +28,11 @@ git clone https://github.com/Leendeseqy/pdf-text-extractor.git
 cd pdf-text-extractor
 
 # Установите зависимости
+pip install -r requirements.txt
+```
+
+*Альтернативно:*
+```bash
 pip install pdfplumber
 ```
 
@@ -105,13 +110,16 @@ pdf_files = [f for f in os.listdir(folder_path)
 ## 🤝 Вклад в проект
 
 Мы приветствуем ваши предложения и исправления! Пожалуйста:
+
 1. Форкните репозиторий
-2. Создайте ветку для вашей функции
-3. Сделайте пул-реквест
+2. Создайте ветку для вашей функции (`git checkout -b feature/AmazingFeature`)
+3. Зафиксируйте изменения (`git commit -m 'Add some AmazingFeature'`)
+4. Запушьте в ветку (`git push origin feature/AmazingFeature`)
+5. Откройте Pull Request
 
 ## 📄 Лицензия
 
-Этот проект распространяется под лицензией MIT. Подробнее см. в файле LICENSE.
+Этот проект распространяется под лицензией MIT. Подробнее см. в файле [LICENSE](LICENSE).
 
 ## 👨‍💻 Автор
 
@@ -119,5 +127,4 @@ pdf_files = [f for f in os.listdir(folder_path)
 
 ---
 
-**⭐ Если этот проект был вам полезен, поставьте звезду на GitHub!**
-```
+**⭐ Если этот проект был вам полезен, поставьте звезду на [GitHub](https://github.com/Leendeseqy/pdf-text-extractor)!**
